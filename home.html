@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  	
+  	<style>
+  		.full-page{
+  			background-color: #282a30;
+  			height: 100vh;
+  			text-align: center;
+  		}
+  		.for-content{
+  			position: absolute;
+  			top:40%;
+  			left: 33%;
+  			
+
+  		}
+  		.for-mainheading{
+  			color:white;
+  			font-size: 60px;
+  			font-family: sans-serif;
+  		}
+  		.for-head{
+  			color:#db8794;
+  			font-size: 20px;
+  			font-family: sans-serif;
+  			padding-bottom: 10px;
+  		}
+  		.for-input{
+  			width: 100%;
+  			padding: 13px;
+  			padding-left: 25px;
+  			border-radius: 20px;
+  			border: 0px;
+  			font-weight: bold;
+  		}
+  		.for-bottomlink{
+  			color:white;
+  			font-weight: bold;
+  			font-size: 20px;
+  			text-decoration: underline;
+  			font-family: sans-serif;
+  		}
+  		h2  :hover{color: #1a6a4e;}
+  		
+  		.for-image{
+            height: auto;
+            width: 60px;
+            padding-left: 10px;
+            float: left;
+
+  		}
+        nav{
+            background: white;
+            height: 70px;
+            box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+            display: flex;
+            justify-content:space-between;
+        }
+  		nav ul{
+  			padding: 0px;
+  			margin: 0px;
+  			float: left;
+  			margin-right: 30px;
+  		}
+  		nav ul li{
+  			background: white;
+  			position: relative;
+  			list-style: none;
+  			display: inline-block;
+  		}
+        nav ul li a{
+            display: block;
+            padding: 0 15px;
+            color: black;
+            font-weight: bold;
+            text-decoration: none;
+            line-height: 50px;
+            font-size: 20px;
+        }
+        nav ul li a:hover{
+            background: #1a6a4e;
+        }
+        nav ul ul{
+            position: absolute;
+            top:60px;
+            display: none;
+        }
+        nav ul li:hover > ul{
+            display: block;
+        }
+        nav ul ul li{
+        	width: 150px;
+        	float: none;
+        	display: list-item;
+        	position: relative;
+        }
+        nav ul ul ul li{
+        	position: relative;
+        	top: -60px;
+        	left: 150px;
+        }
+        .New-button{
+        	background-color: white;
+        	border-radius: 10px;
+        	border-width: 1px;
+        	padding: 3px;
+        	width: 50px;
+        	margin-left:5px; 
+        }
+        .Certified-button{
+        	background-color: #f4cccc;
+        	font-size: 15px;
+        	font-weight: bold;
+        	width: 120px;
+        	height: 40px;
+        	border-radius: 20px;
+        	border-width: 0px;
+        }
+        .login-button{
+            background-color: green;
+        	font-size: 15px;
+        	font-weight: bold;
+        	width: 120px;
+        	height: 40px;
+        	border-radius: 20px;
+        	border-width: 0px;
+        }
+
+
+
+
+  	</style>
+
+
+   </head>
+  <body>
+  	<div>
+  	    <div>
+  		    <nav>
+            
+  		    	<ul>
+  		    		<img src="C:\Users\u1136167\Downloads\channels4_profile.jpg" class="for-image">
+  		    		<li><a href="#">Tutorials</a>
+                        <ul>
+                           <li><a href="#">HTML,CSS</a></li>
+                           <li><a href="#">JavaScript</a></li>
+                           <li><a href="#">Server Side</a></li>
+                           <li><a href="#">Data Analytics</a></li>
+                           <li><a href="#">Programming</a></li>
+                           <li><a href="#">Web Building</a></li>
+                        </ul>
+                    </li>      
+  		    		<li><a href="#">Referencs</a>
+                        <ul>
+                           <li><a href="#">HTML,CSS</a></li>
+                           <li><a href="#">JavaScript</a></li>
+                           <li><a href="#">Server Side</a></li>
+                           <li><a href="#">Data Analytics</a></li>
+                           <li><a href="#">Programming</a></li>
+                           <li><a href="#">Web Building</a></li>
+                        </ul>
+  		            </li>
+  		    		<li><a href="#">Exercises</a>
+                        <ul>
+                           <li><a href="#">Exercises</a></li>
+                           <li><a href="#">Quizzes</a></li>
+                           <li><a href="#">Courses</a></li>
+                           <li><a href="#">Certificates</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Videos</a></li>
+  		    	</ul>
+  		    	<ul>
+  		    		<li><a href="#">Pro<button class="New-button">New</button></a></li>
+                    <li><a href="#"><button class="Certified-button">Get Certified</button></a></li>
+                    <li><a href="#">Website</a></li>
+                    <li><a href="#"><button class="login-button">Log in</button></a></li>
+  		    	</ul>
+  		    	
+
+
+  		    </nav>
+  	    </div>
+
+  	    <div class="full-page">
+  		    <div class="for-content">
+                <h1 class="for-mainheading">Learn to Code</h1>
+                <h3 class="for-head">With the world's largest web developer site.</h3>
+                <input class="for-input" type="text" placeholder="Search our tutorials,e.g.HTML">
+                <h2 class="for-bottomlink"><a href="https://www.w3schools.com/where_to_start.asp" >Not Sure Where To Begin?</a></h2>
+            </div>    
+        </div>
+    </div>
+
+
+
+  </body>
+</html>
